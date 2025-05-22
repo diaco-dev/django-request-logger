@@ -1,0 +1,25 @@
+{
+    "levelname": "INFO",
+    "asctime": "2025-05-21 13:51:11,310",
+    "name": "project.requests.info",
+    "message": "HTTP POST request to/api/v1/api/api-test/",
+    "pathname": "/home/user/Project/myproject/test/config/logging_config.py",
+    "lineno": 132,
+    "request_method": "POST", "request_url": "/api/v1/api/api-test/",
+    "status_code": 200,
+    "remote_addr": "127.0.0.1",
+    "user_agent": "PostmanRuntime/7.44.0"
+}
+{
+    "levelname": "INFO",
+    "asctime": "2025-05-21 14:03:27,166",
+    "name": "project.requests.info",
+    "message": "HTTP GET request to/api/v1/api/api-test/2b634f3e-5489-456c-ade1-93ecd584d84b",
+    "pathname": "/home/user/Project/myproject/test/config/logging_config.py",
+    "lineno": 132,
+    "request_method": "GET",
+    "request_url": "/api/v1/api/api-test/2b634f3e-5489-456c-ade1-93ecd584d84b",
+    "status_code": 200,
+    "remote_addr": "127.0.0.1",
+    "user_agent": "PostmanRuntime/7.44.0"
+}

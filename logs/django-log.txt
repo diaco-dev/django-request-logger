@@ -1,0 +1,11 @@
+
+{
+    "levelname": "INFO",
+    "asctime": "2025-05-21 14:06:19,877",
+    "name": "django.utils.autoreload",
+    "module": "autoreload",
+    "funcName": "run_with_reloader",
+    "lineno": 668,
+    "message": "Watching for file changes with StatReloader",
+    "pathname": "/home/user/Project/myproject/log-test/.venv/lib/python3.12/site-packages/django/utils/autoreload.py"
+   }
