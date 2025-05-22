@@ -98,11 +98,21 @@ Ensure your project directory includes a `logs/` folder to store the log files. 
 ```
 your_project/
 ├── config/
+│   ├── asgi.py
+│   ├── wsgi.py
+│   ├── urls.py
+│   ├── settings.py
 │   └── logging_config.py
 ├── logs/
 │   ├── info.log
 │   └── errors.log
-├── settings.py
+├── app_name
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serilizers.py
+│   ├── views.py
+│   └── urls.py
 └── ...
 ```
 
