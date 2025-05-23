@@ -120,8 +120,7 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'anon': '100/hour',  # anonouse user
         'user': '1000/hour',  # ath user
-    },
-    'EXCEPTION_HANDLER': 'core.exceptions.custom_exception_handler',
+    }
 }
 
 # Internationalization
