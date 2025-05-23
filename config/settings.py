@@ -25,10 +25,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework_simplejwt',
-    'rest_framework.authtoken',
-    'rest_framework_simplejwt.token_blacklist',
+    # 'rest_framework',
+    # 'rest_framework_simplejwt',
+    # 'rest_framework.authtoken',
+    # 'rest_framework_simplejwt.token_blacklist',
     # installed-app
 ]
 
@@ -100,10 +100,6 @@ AUTH_PASSWORD_VALIDATORS = [
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=int(os.getenv("ACCESS_TOKEN_LIFETIME", 1))),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=int(os.getenv("REFRESH_TOKEN_LIFETIME", 7))),
-    "ALGORITHM": "HS256",
-    "SIGNING_KEY": os.getenv("JWT_SIGNING_KEY"),
-    "USER_ID_FIELD": "id",
-    "USER_ID_CLAIM": "user_id",
 }
 
 # REST Framework Configuration
@@ -144,4 +140,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Custom user model
-AUTH_USER_MODEL = 'core.CustomUser'
+# AUTH_USER_MODEL = 'core.CustomUser'

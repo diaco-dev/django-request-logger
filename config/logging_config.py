@@ -145,15 +145,6 @@ class RequestLoggingMiddleware:
 
 
 def get_custom_logger(name):
-    """
-    Create a custom logger for a specific module with JSON output.
-
-    Args:
-        name (str): Name of the logger (e.g., 'myapp.module').
-
-    Returns:
-        logging.Logger: Configured logger instance.
-    """
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
 
